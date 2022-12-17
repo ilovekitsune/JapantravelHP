@@ -1,0 +1,24 @@
+@mixin flexbox($direction) {
+  display: flex;
+  flex-direction: $direction;
+}
+
+body {
+  background-color: aquamarine;
+  height: 1000px;
+  @include flexbox(column);
+  div {
+    background-color: chocolate;
+    height: 600px;
+    nav {
+      background-color: gold;
+      height: 300px;
+      h1 {
+        color: aqua;
+        &:hover {
+          color: green;
+        }
+      }
+    }
+  }
+}
