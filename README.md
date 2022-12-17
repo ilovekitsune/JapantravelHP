@@ -1,1 +1,1 @@
-# JapantravelHP
+ilovekitsune.github.io
